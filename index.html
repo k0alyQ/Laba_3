@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать на мою личную страницу!</h1>
+        <button class="button" id="button1">Общая информация</button>
+        <div class="info" id="info1">
+            <p>Привет! 
+                Меня зовут Базарова Арюуна, я из Бурятии. 
+                Родилась 23 ноября 2004 года в Кырене — милом и тихом селе, в котором я и выросла. 
+                Сейчас я учусь в НГТУ, стараюсь получить новые знания и навыки. 
+                Рада познакомиться и с вами!</p>
+        </div>
+        
+        <button class="button" id="button2">Образование</button>
+        <div class="info" id="info2">
+            <section>
+			<p> В 2022 году выпустилась из <a href="https://kyrenschool.gosuslugi.ru/">МБОУ "Кыренской средней общеобразовательной школы"</a> с золотой медалью.
+				
+			</p><p> Я с гордостью могу сказать, что окончила музыкальную школу. 
+                Там я получила огромный багаж знаний и опыта, получила навыки в хореографии, научилась нотной грамоте и играть на пианино.
+                Если вам интересно посетить сайт Кыренской детской школы искусств:
+                <a href="https://kdshi.bur.muzkult.ru/">Кыренская детская школа искусств</a>
+            </p>
+			</section>
+        </div>
+
+        <button class="button" id="button3">Контакты</button>
+        <div class="info" id="info3">
+			<ul type="square">
+				<li>Вконтакте -> <a href="https://vk.com/k0alyq">Арюуна Базарова</a></li>
+				<li>Телеграмм -> <a href="https://t.me/k0alyQ">k0alyQ</a></li>
+				<li>Просто почта -> <a href="mailto:bazarovaaryuna23@gmail.com">bazarovaaryuna23@gmail.com</a></li>
+				<li>Корпоротивная почта -> <a href="mailto:bazarova.2022@stud.nstu.ru">bazarova.2022@stud.nstu.ru</a></li>
+			</ul>
+        </div>
+    </div>
+	<div class="comments-section">
+    <h2>Комментарии</h2>
+    <form id="comment-form">
+        <textarea id="comment-input" placeholder="Введите ваш комментарий..." required></textarea>
+        <button type="submit" id="add-comment-btn">Добавить комментарий</button>
+    </form>
+    <ul id="comments-list"></ul>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

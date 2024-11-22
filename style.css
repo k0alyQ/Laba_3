@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("фон.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+h1{
+	padding: 10px 20px;
+	margin-top: 10%;
+	margin-bottom: 70px;
+	color: rgb(255, 255, 255);
+    background-color: #570606;
+	background-blend-mode: color-dodge;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 20px;
+}
+
+.button {
+    padding: 20px 30px;
+    margin: 15px 0;
+    background-color: #570606;
+    color: rgb(207, 204, 204);
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid #660000;
+    background-color: #bb6b6b;
+}
+
+.comments-section {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #660000;
+    background-color: #bb6b6b;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    border: 1px solid #660000;
+    border-radius: 5px;
+}
+
+#add-comment-btn {
+    padding: 10px 15px;
+    background-color: #570606;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-comment-btn:hover {
+    background-color: #660000;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #660000;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.delete-comment-btn {
+    background-color: #bb6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-comment-btn:hover {
+    background-color: #660000;
+}
